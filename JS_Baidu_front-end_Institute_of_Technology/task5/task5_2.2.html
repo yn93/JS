@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>模拟队列_task5</title>
+	<link rel="stylesheet" type="text/css" href="../../public/reset.css">
+
+	<style type="text/css" media="screen">
+		.quenue{
+			width:700px;
+			height: 200px;
+			margin:0 auto;
+			border:1px solid #999;
+			text-align: center;
+		}
+		.que-list{
+			position: relative;
+		/*	overflow: auto;*/
+			
+		/*	height: 100px;*/
+			margin-top:20px;
+		}
+		.que-list li{
+			display: inline-block;
+			position: relative;
+			bottom: 0;
+
+			
+			margin-right: 10px;
+			padding:0 10px;
+
+			/*text-align: center;*/
+			/*line-height: 40px;*/
+		
+			background: #F81919;
+			color:#fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="quenue">
+		<input type="text" name="" value=" " id="inputText">
+		<input type="button" name="" value="左侧入" id="leftInput">
+		<input type="button" name="" value="右侧入" id="rightInput">
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" name="" value="左侧出" id="leftOut">
+		<input type="button" name="" value="右侧出" id="rightOut">
+		&nbsp;&nbsp;
+		<input type="button" name="" value="排序"   id="sort">
+		<ul id="que-list" class="que-list">
+
+		</ul>
+	</div>
+</body>
+<script src="task5_2.2.js" type="text/javascript" charset="utf-8" ></script>
+</html>
